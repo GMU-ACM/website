@@ -1,0 +1,114 @@
+/* Styles for GMU ACM Site */
+
+/* TAG REDEFINITIONS ---------------------*/
+
+html {
+	height:100%;
+    background-color: #777
+} 
+body { 
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+/* HEADER STUFF -------------------------*/
+
+/* main header division */
+.header {
+	padding-top: 80px;
+	background-color: #444;
+}
+
+/* BODY STUFF --------------------------*/
+/* main menu text */
+.inside {
+	padding: 0px 10px 0px 15px;
+	border-left-color: #999999;
+	border-left-style: solid;
+	border-left-width: medium;
+	line-height: 20px;
+}
+.inside a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+.inside a:hover {
+	color: #0066CC;
+	font-weight:bold;
+}
+.inside a:visited {
+}
+/* middle section division */
+.middle {
+	font: 14px Arial, Helvetica, sans-serif;
+	background-color: #fefaec;
+}
+
+/* NAVI BAR --------------------------------*/
+
+.navbar { 
+	padding: 5px 5px 5px 15px;
+	background-color: #CCC;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #0066CC;
+}
+
+/* TEXT STYLES IN MIDDLE -------------------*/
+
+/* text body declaration */
+.mainBody {
+	padding: 15px;
+}
+
+/* text headers */
+.mainHeader {
+	font: 25px Arial, Helvetica, sans-serif;
+	color: #444444;
+}
+
+/* section text */
+.mainSection {
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #444444;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+.mainSection a {
+	color:#3366CC;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*table {
+	margin-bottom: "2px";
+}*/
+
+/* FOOTER STUFF ----------------------------*/
+
+.footer {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #DDD;
+	background-color: #777;
+	height: 10px;
+	padding: 10px;
+}
+
+.footer a {
+	color: #DDD;
+    height: 10px;
+}
+
