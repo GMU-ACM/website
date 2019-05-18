@@ -1,18 +1,24 @@
-/* Styles for GMU ACM Site */
-
-/* TAG REDEFINITIONS ---------------------*/
-
 html {
-	height:100%;
-    background-color: #777
+	background-color: #777;
+	color: #444444;
 } 
+
 body { 
 	padding: 0;
 	margin: 0;
-	height: 100%;
 }
 
-/* HEADER STUFF -------------------------*/
+
+/* TODO: rename these */
+.c2 {
+	background: #2b543e;
+	vertical-align:top;
+}
+
+.c1 {
+	background: #FEDE58;
+}
+
 
 /* main header division */
 .header {
@@ -20,7 +26,8 @@ body {
 	background-color: #444;
 }
 
-/* BODY STUFF --------------------------*/
+
+/* BODY STUFF */
 /* main menu text */
 .inside {
 	padding: 0px 10px 0px 15px;
@@ -29,41 +36,22 @@ body {
 	border-left-width: medium;
 	line-height: 20px;
 }
-.inside a {
-	font-family: Arial, Helvetica, sans-serif;
-	text-decoration: none;
-	color: #000;
-}
-.inside a:hover {
-	color: #0066CC;
-	font-weight:bold;
-}
-.inside a:visited {
-}
+
+
 /* middle section division */
 .middle {
 	font: 14px Arial, Helvetica, sans-serif;
 	background-color: #fefaec;
 }
 
-/* NAVI BAR --------------------------------*/
 
+/* navigation bar */
 .navbar { 
 	padding: 5px 5px 5px 15px;
 	background-color: #CCC;
 	font: 13px Arial, Helvetica, sans-serif;
 }
 
-.navbar a {
-	color: #333333;
-	text-decoration: none;
-}
-
-.navbar a:hover {
-	color: #0066CC;
-}
-
-/* TEXT STYLES IN MIDDLE -------------------*/
 
 /* text body declaration */
 .mainBody {
@@ -73,27 +61,15 @@ body {
 /* text headers */
 .mainHeader {
 	font: 25px Arial, Helvetica, sans-serif;
-	color: #444444;
 }
 
 /* section text */
 .mainSection {
 	font: 13px Arial, Helvetica, sans-serif;
-	color: #444444;
 	text-align: justify;
 	padding-left: 20px;
 	padding-right: 30px;
 }
-
-.mainSection a {
-	color:#3366CC;
-}
-
-ul {
-  list-style-type: none;
-}
-
-/* FOOTER STUFF ----------------------------*/
 
 .footer {
 	font: 10px Verdana, Arial, Helvetica, sans-serif;
@@ -103,13 +79,7 @@ ul {
 	padding: 10px;
 }
 
-.footer a {
-	color: #DDD;
-    height: 10px;
-}
-
-
-/* GALLERY STUFF ---------------------------*/
+/* gallery */
 
 div.gallery {
 	margin: 5px;
